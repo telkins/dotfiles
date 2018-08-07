@@ -57,7 +57,7 @@ cask 'dupeguru'
 #cask 'garmin-express'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-#cask 'google-drive'
+#cask 'google-drive' # replaced by google-backup-and-sync...?
 #cask 'google-featured-photos'
 #cask 'google-hangouts'
 #cask 'google-notifier'
