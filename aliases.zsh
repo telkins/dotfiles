@@ -4,7 +4,7 @@ alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-directories-first"
 weather() { curl -4 wttr.in/${1:-antwerp} }
-alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
+#alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 
@@ -25,11 +25,11 @@ alias vreload="vagrant reload"
 alias vrebuild="vagrant destroy --force && vagrant up"
 
 # Docker
-alias dstop="docker stop $(docker ps -a -q)"
-alias dpurgecontainers="dstop && docker rm $(docker ps -a -q)"
-alias dpurgeimages="docker rmi $(docker images -q)"
-dbuild() { docker build -t=$1 .; }
-dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
+#alias dstop="docker stop $(docker ps -a -q)"
+#alias dpurgecontainers="dstop && docker rm $(docker ps -a -q)"
+#alias dpurgeimages="docker rmi $(docker images -q)"
+#dbuild() { docker build -t=$1 .; }
+#dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 
 # Git
 alias commit="git commit -am"
