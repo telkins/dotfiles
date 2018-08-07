@@ -32,9 +32,23 @@ alias vrebuild="vagrant destroy --force && vagrant up"
 #dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 
 # Git
-alias commit="git commit -am"
-alias gcommit="git commit -a"
-alias gst="git status"
-alias gc="git checkout"
-alias gd="git diff"
-alias gl="git log --oneline --decorate --color"
+# Use `hub` as our git wrapper:
+#   http://defunkt.github.com/hub/
+#hub_path=$(which hub)
+#if (( $+commands[hub] ))
+#then
+#  alias git=$hub_path
+#fi
+
+alias ga='git add'
+alias gb="git branch"
+alias gc="git commit"
+alias gcm="git commit -m"
+alias gco="git checkout"
+alias gd='git diff --color | sed "s/^\([^-+ ]*\)[-+ ]/\\1/" | less -r' # Remove `+` and `-` from start of diff lines; just rely upon color.
+alias gl='git pull --prune'
+#alias gl="git log --oneline --decorate --color"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias gp="git push origin HEAD"
+alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
+
