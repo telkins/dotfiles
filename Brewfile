@@ -30,7 +30,7 @@ brew 'pkg-config'
 #brew 'tree'
 brew 'unrar'
 brew 'wget'
-#brew 'yarn'
+brew 'yarn'
 brew 'zsh'
 brew 'zsh-completions'
 
