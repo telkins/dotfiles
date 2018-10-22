@@ -48,7 +48,9 @@ cask 'aerial' # screensaver: https://github.com/JohnCoates/Aerial
 cask 'alfred'
 cask 'atom'
 cask 'battle-net'
+cask 'brave-browser'
 #cask 'caffeine'
+cask 'db-browser-for-sqlite'
 #cask 'docker'
 #cask 'dropbox' # seems to be linked to an older download
 cask 'dupeguru'
