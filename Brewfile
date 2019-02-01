@@ -115,6 +115,7 @@ cask 'vlc'
 
 # Install Mac App Store apps
 #mas '1Password', id: 1333542190
+mas 'Battery Monitor: Health, Info', id: 836505650
 #mas 'Byword', id: 420212497
 #mas 'Deckset', id: 847496013
 #mas 'Giphy Capture', id: 668208984
@@ -124,3 +125,4 @@ cask 'vlc'
 #mas 'Things', id: 904280696
 #mas 'Tweetbot', id: 1384080005
 mas 'WhatsApp', id: 1147396723
+
