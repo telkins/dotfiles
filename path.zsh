@@ -17,3 +17,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Load custom commands
 export PATH="$DOTFILES/bin:$PATH"
+
+# Laravel Spark
+export PATH="$PATH:$HOME/development/laravel/spark-installer"
+
