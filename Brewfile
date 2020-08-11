@@ -98,6 +98,7 @@ cask 'virtualbox'
 #cask 'virtualbox-extension-pack'
 #cask 'visual-studio-code'
 cask 'vlc'
+cask 'wireguard-tools'
 #cask 'xee'
 #cask 'zerotier-one'
 
