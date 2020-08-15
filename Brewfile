@@ -58,6 +58,7 @@ cask 'battle-net'
 #cask 'brave-browser'
 #cask 'caffeine'
 cask 'db-browser-for-sqlite'
+cask 'discord'
 #cask 'docker'
 #cask 'dropbox' # seems to be linked to an older download
 cask 'dupeguru'
