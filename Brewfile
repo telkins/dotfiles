@@ -22,6 +22,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 #brew 'rbenv'
 #brew 'roundup'
 #brew 'ruby-build'
+brew 'svn'
 #brew 'spaceman-diff'
 #brew 'spark' # http://github.com/holman/spark
 #brew 'tmate'
