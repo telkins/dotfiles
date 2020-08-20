@@ -134,10 +134,12 @@ cask 'font-source-serif-pro'
 #mas 'Byword', id: 420212497
 #mas 'Deckset', id: 847496013
 #mas 'Giphy Capture', id: 668208984
+mas 'Keynote', id: 409183694
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
 #mas 'Sip', id: 507257563
 #mas 'Spark', id: 1176895641
 #mas 'The Unarchiver', id: 425424353
 #mas 'Things', id: 904280696
 #mas 'Tweetbot', id: 1384080005
 #mas 'WhatsApp', id: 1147396723
-
