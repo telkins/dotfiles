@@ -143,3 +143,5 @@ mas 'Pages', id: 409201541
 #mas 'Things', id: 904280696
 #mas 'Tweetbot', id: 1384080005
 #mas 'WhatsApp', id: 1147396723
+mas 'WireGuard', id: 1451685025
+mas 'Xcode', id: 497799835
