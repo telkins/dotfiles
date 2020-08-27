@@ -47,6 +47,7 @@ brew 'php'
 brew 'php-code-sniffer'
 brew 'php-cs-fixer'
 brew 'node'
+brew 'redis'
 brew 'wireguard-tools'
 brew 'yarn'
 
