@@ -25,7 +25,7 @@ brew 'svn'
 #brew 'spaceman-diff'
 #brew 'spark' # http://github.com/holman/spark
 #brew 'tmate'
-#brew 'trash'
+brew 'trash'
 #brew 'tree'
 brew 'unrar'
 brew 'wget'
