@@ -13,8 +13,10 @@ alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
 
-# Laravel
-alias a="php artisan"
+# Development
+alias art="php artisan"
+alias pf='phpunit --filter'
+alias arl="php artisan route:list --columns=action,uri,name"
 
 # Vagrant
 alias v="vagrant global-status"
