@@ -17,6 +17,7 @@ alias sites="cd $HOME/Sites"
 alias art="php artisan"
 alias pf='phpunit --filter'
 alias arl="php artisan route:list --columns=action,uri,name"
+alias sail='bash vendor/bin/sail'
 
 # Vagrant
 alias v="vagrant global-status"

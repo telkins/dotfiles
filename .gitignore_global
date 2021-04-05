@@ -38,3 +38,12 @@ Thumbs.db
 .idea/
 .vscode
 .vagrant/
+
+# Development files #
+#####################
+*.sublime-project
+*.sublime-workspace
+.env.production
+.env.staging
+.phpunit.result.cache
+
