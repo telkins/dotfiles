@@ -33,6 +33,10 @@ alias vrebuild="vagrant destroy --force && vagrant up"
 #alias dpurgeimages="docker rmi $(docker images -q)"
 #dbuild() { docker build -t=$1 .; }
 #dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
+alias dc=docker-compose
+alias de="docker exec -it"
+# docker-compose exec app bash # ssh in to container
+# docker-compose logs --tail 200 app # dump log
 
 # Git
 # Use `hub` as our git wrapper:
