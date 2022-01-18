@@ -107,11 +107,13 @@ cask 'tinkerwell'
 # cask 'tunnelbear'
 # cask 'tuple'
 # cask 'unrar'
-cask 'utorrent'
-cask 'vagrant'
+# cask 'utorrent'
+# virtualbox may have dependencies
+# cask 'vagrant'
 # cask 'viber'
-cask 'virtualbox' # Might need to allow access in Security settings
-cask 'virtualbox-extension-pack'
+# virtualbox may have dependencies
+# cask 'virtualbox' # Might need to allow access in Security settings
+# cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
