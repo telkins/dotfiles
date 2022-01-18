@@ -48,7 +48,7 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 # mkdir $HOME/Sites/laravel
 
 # Clone Github repositories
-$DOTFILES/clone.sh
+# $DOTFILES/clone.sh
 
 # Symlink the Mackup config file to the home directory
 ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
