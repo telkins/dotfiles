@@ -139,6 +139,7 @@ cask 'font-source-serif-pro'
 #mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
+mas 'Microsoft 365', id: 1450038993
 mas 'Pages', id: 409201541
 mas 'Slack', id: 803453959
 #mas 'Spark', id: 1176895641
