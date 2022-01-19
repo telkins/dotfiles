@@ -17,11 +17,6 @@ alias lara="sites && cd laravel/"
 alias docs="lara && cd docs/"
 
 # Laravel
-alias a="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
-alias seed="php artisan db:seed"
-
-# Laravel
 alias art="php artisan"
 alias a="php artisan"
 alias fresh="php artisan migrate:fresh --seed"
