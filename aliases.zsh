@@ -1,3 +1,8 @@
+# dev
+alias gocal="cd ~/dev/caliber"
+alias calup="docker-compose --env-file ../variables.env up --build --force-recreate --detach"
+alias caldown="docker-compose --env-file ../variables.env down --remove-orphans"
+
 # Shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadshell="source $HOME/.zshrc"
@@ -18,12 +23,16 @@ alias docs="lara && cd docs/"
 
 # Laravel
 alias art="php artisan"
+alias sart="sail artisan"
 alias a="php artisan"
 alias fresh="php artisan migrate:fresh --seed"
 alias seed="php artisan db:seed"
-alias pf='phpunit --filter'
+alias pf="phpunit --filter"
 alias arl="php artisan route:list --columns=action,uri,name"
-alias sail='bash vendor/bin/sail'
+alias sail="bash vendor/bin/sail"
+alias vapor="php vendor/bin/vapor"
+alias st="sail test --stop-on-failure"
+alias stf="sail test --stop-on-failure --filter"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
