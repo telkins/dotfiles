@@ -36,6 +36,7 @@
 ehthumbs.db
 Thumbs.db
 .idea/
+.swp
 .vscode
 .vagrant/
 
