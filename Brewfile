@@ -49,6 +49,7 @@ brew 'php-cs-fixer'
 brew 'composer'
 brew 'gh' # GitHub CLI
 brew 'git'
+brew 'git-flow'
 brew 'imagemagick'
 brew 'meilisearch'
 brew 'mysql'
