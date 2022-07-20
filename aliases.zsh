@@ -2,6 +2,7 @@
 alias gocal="cd ~/dev/caliber"
 alias calup="docker-compose --env-file ../variables.env up --build --force-recreate --detach"
 alias caldown="docker-compose --env-file ../variables.env down --remove-orphans"
+alias calprune="docker builder prune -a"
 
 # Shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
@@ -55,6 +56,7 @@ alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:
 # Git
 alias gst="git status"
 alias ga='git add'
+alias gau='git add -u'
 alias gb="git branch"
 alias gc="git commit"
 alias gcm="git commit -m"
