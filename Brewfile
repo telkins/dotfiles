@@ -62,6 +62,7 @@ brew 'yarn'
 # Apps
 # cask '1password'
 # cask 'adobe-reader'
+cask android-file-transfer
 # cask 'battle-net'
 # cask 'caffeine'
 # cask 'dbngin'
