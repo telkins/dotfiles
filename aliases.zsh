@@ -31,7 +31,7 @@ alias seed="php artisan db:seed"
 alias pf="phpunit --filter"
 alias arl="php artisan route:list --columns=action,uri,name"
 alias sail="bash vendor/bin/sail"
-alias vapor="php vendor/bin/vapor"
+alias vapor="php ~/.composer/vendor/bin/vapor"
 alias st="sail test --stop-on-failure"
 alias stf="sail test --stop-on-failure --filter"
 
