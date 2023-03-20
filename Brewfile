@@ -9,6 +9,7 @@ tap 'stripe/stripe-cli'
 # For a list of all formulas/casks: https://formulae.brew.sh
 
 # Binaries
+brew 'android-file-transfer'
 #brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
@@ -40,10 +41,11 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
+brew 'dbingin'
 brew 'php'
 brew 'php@8.1'
 brew 'php@8.0'
-brew 'php@7.4'
+# brew 'php@7.4'
 brew 'php-code-sniffer'
 brew 'php-cs-fixer'
 brew 'composer'
@@ -55,13 +57,14 @@ brew 'meilisearch'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
+brew 'qcachgrind'
 brew 'redis'
 brew 'wireguard-tools'
 brew 'yarn'
 
 # Apps
 # cask '1password'
-# cask 'adobe-reader'
+cask adobe-acrobat-reader
 cask android-file-transfer
 # cask 'battle-net'
 # cask 'caffeine'
