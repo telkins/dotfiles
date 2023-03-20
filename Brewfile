@@ -41,7 +41,7 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
-brew 'dbingin'
+brew 'dbngin'
 brew 'php'
 brew 'php@8.1'
 brew 'php@8.0'
