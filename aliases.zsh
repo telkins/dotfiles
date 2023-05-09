@@ -1,6 +1,6 @@
 # dev
 alias gocal="cd ~/dev/caliber"
-alias calup="docker-compose --env-file ../variables.env up --build --force-recreate --detach"
+alias calup="docker-compose --env-file ../variables.env up --build --detach"
 alias caldown="docker-compose --env-file ../variables.env down --remove-orphans"
 alias calprune="docker builder prune -a"
 
