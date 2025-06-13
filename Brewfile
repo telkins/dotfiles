@@ -41,12 +41,14 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
+brew 'act'
 brew 'dbngin'
 brew 'php'
 # brew 'php@8.2'
 brew 'php-code-sniffer'
 brew 'php-cs-fixer'
 brew 'composer'
+brew 'docker-compose'
 brew 'gh' # GitHub CLI
 brew 'git'
 brew 'git-flow'
